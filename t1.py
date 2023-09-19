@@ -1,2 +1,2 @@
 input = str("age")
-print = str(input + 22)
+print = str(input + str("22"))
