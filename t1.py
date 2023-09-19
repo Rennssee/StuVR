@@ -1,2 +1,3 @@
-input = str("age")
-print = str(input + str("22"))
+name = input(">>> ")
+age = input("Age>>> ")
+print("Hello " + name + " " + age)
