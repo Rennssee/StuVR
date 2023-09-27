@@ -1,10 +1,7 @@
-def discount_price(price, discount):
-    def apply_discount():
-        nonlocal price
-        price = price - (price * discount)
-
-    apply_discount()
-    return price
+def cost_delivery(quantity, *_, discount=0):
+    summ1 = 5 + (quantity - 1) * 2
+    cost = summ1 * (1 - discount)
+    return cost
 
 
-print(discount_price(100, 0.1))
+print(cost_delivery(5, 5, 5, 33, discount=0.5))
